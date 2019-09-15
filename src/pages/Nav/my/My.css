@@ -1,0 +1,37 @@
+.bigtop{
+    display: flex;
+    flex-direction: column;
+    background-color: #55aee5;
+}
+.bigtop .top{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.bigtop .top .left{
+    display: flex;
+    justify-content:space-around;
+}
+.bigtop .top  .right{
+    margin-top: 10px;
+}
+.bigtop .top  .right img{
+    width: 20px;
+    height: 20px;
+}
+.bigtop .top img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.bigtop .down{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    
+}
+.bigtop .down p{
+    text-align: center;
+}
